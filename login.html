@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    <style>
+           button{
+                   width: 100%;
+                   height: 40px;
+                   border-radius: 40px;
+                   background: #fff;
+                   border: none;
+                   outline: none;
+                   cursor: pointer;
+                   font-size: 1em;
+                   font-weight: 600;
+                 }
+    </style>
+</head>
+<body>
+    <form method="get" action="login" autocomplete="on">
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="" autocomplete="on">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input id="mail" type="email" required name="mail" required>
+                        <label for="mail">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input id="password" type="password" required name="pwd" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for="checkbox"><input id="checkbox" type="checkbox">Remember Me <a href="#">Forget Password</a></label>
+                    </div>
+                    <button>Sign in</button>
+                    <div class="register">
+                        <p>Don't have a Account <a href="register.html">Sign Up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </form>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
